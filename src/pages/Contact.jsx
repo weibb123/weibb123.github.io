@@ -28,8 +28,8 @@ const Contact = () => {
     setCurrentAnimation('hit');
 
     emailjs.send(
-      service_u5bou3p, // service_id from emailjs
-      template_dpjuxlu, // template_id from emailjs
+      "service_u5bou3p", // service_id from emailjs
+      "template_dpjuxlu", // template_id from emailjs
       {
         from_name: form.name,
         to_name: "Wei",
@@ -37,7 +37,7 @@ const Contact = () => {
         to_email: 'weininmai@gmail.com',
         message: form.message
       },
-      _NjiedCYfWJ-3acrj // public id from emailjs
+      "_NjiedCYfWJ-3acrj" // public id from emailjs
     ).then(
       () => {
         setIsLoading(false);

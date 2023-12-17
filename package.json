@@ -1,8 +1,8 @@
 {
+  "homepage": "https://weibb123.github.io/personal_website/",
   "name": "personal_website",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://weibb123.github.io/personal_website/"
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",

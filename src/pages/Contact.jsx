@@ -30,8 +30,6 @@ const Contact = () => {
     emailjs.send(
       "service_u5bou3p", // service_id from emailjs
       "template_dpjuxlu", // template_id from emailjs
-      'service_u5bou3p', // emailjs service_id
-      'template_dpjuxlu', // emailjs template_id
       {
         from_name: form.name,
         to_name: "Wei",
@@ -40,7 +38,7 @@ const Contact = () => {
         message: form.message
       },
       '_NjiedCYfWJ-3acrj' // emailjs public key
-      "_NjiedCYfWJ-3acrj" // public id from emailjs
+      
     ).then(
       () => {
         setIsLoading(false);

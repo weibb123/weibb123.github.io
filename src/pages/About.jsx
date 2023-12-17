@@ -44,7 +44,7 @@ const About = () => {
       <div className="py-16">
         <h3 className="subhead-text">Work Experience</h3>
           <div className="mt-5 flex flex-col gap-3 text-slate-500">
-          <p>I've worked wit all sorts of companies, leveling up my
+          <p>I've worked with many companies and come from a diverse background, leveling up my
           skills and teaming up with smart people. Here's the
           rundown:</p>
         </div>

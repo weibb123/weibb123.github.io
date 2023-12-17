@@ -28,8 +28,8 @@ const Contact = () => {
     setCurrentAnimation('hit');
 
     emailjs.send(
-      import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-      import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+      'service_u5bou3p', // emailjs service_id
+      'template_dpjuxlu', // emailjs template_id
       {
         from_name: form.name,
         to_name: "Wei",
@@ -37,7 +37,7 @@ const Contact = () => {
         to_email: 'weininmai@gmail.com',
         message: form.message
       },
-      import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+      '_NjiedCYfWJ-3acrj' // emailjs public key
     ).then(
       () => {
         setIsLoading(false);

@@ -26,10 +26,13 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import tensorflow from './tensorflow.svg'
+import python from './python.svg'
 
 export {
     css,
     express,
+    python,
     git,
     github,
     html,
@@ -45,6 +48,7 @@ export {
     tailwindcss,
     typescript,
     linkedin,
+    tensorflow,
     twitter,
     car,
     estate,

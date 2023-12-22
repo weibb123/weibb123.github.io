@@ -4,7 +4,7 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 
-import { skills, experiences } from '../constants';
+import { skills, experiences, socialLinks } from '../constants';
 import CTA from "../components/CTA";
 
 const About = () => {
@@ -18,7 +18,7 @@ const About = () => {
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
           Data Scientist / AI Engineer based in Boston MA specialized in building
-          end to end AI systems and Data Science Solutions.</p>
+          end to end AI systems and Data Science Solutions. In the era of AI and technology, never stop learning and be ready to learn new tech</p>
       </div>
 
       <div className='py-10 flex flex-col'>
@@ -96,6 +96,29 @@ const About = () => {
             ))}
           </VerticalTimeline>
         </div>
+
+        <div className='py-10 flex flex-col'>
+        <h3 className='subhead-text'>Social</h3>
+
+        <div className='mt-16 flex flex-wrap gap-12'>
+          {socialLinks.map((socialLinks) => (
+            <div className="block-container w-20 h-20">
+              <div className="btn-back rounded-xl" />
+              <div className="btn-front rounded-xl flex justify-center items-center">
+              <a href={socialLinks.link} target="_blank" rel="noopener noreferrer">
+                <img
+                
+                  src={socialLinks.iconUrl}
+                  alt={socialLinks.name}
+                  className="object-contain"
+                />
+              </a>
+              </div>
+            </div>
+          ))}
+      </div>
+
+      </div>
       </div>
 
       <hr className="border-slate-200" />

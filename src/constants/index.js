@@ -1,29 +1,21 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import {starbucks, tesla, BU, Liberty, JH } from "../assets/images";
 import {
     car,
     contact,
     css,
     estate,
-    express,
     git,
     github,
     html,
-    javascript,
     linkedin,
-    mongodb,
-    motion,
-    mui,
-    nextjs,
-    nodejs,
     pricewise,
     react,
-    redux,
-    sass,
     snapgram,
     summiz,
     tailwindcss,
     threads,
-    typescript
+    tensorflow,
+    python,
 } from "../assets/icons";
 
 export const skills = [
@@ -33,8 +25,18 @@ export const skills = [
         type: "Frontend",
     },
     {
-        imageUrl: express,
-        name: "Express",
+        imageUrl: react,
+        name: "react",
+        type: "Frontend",
+    },
+    {
+        imageUrl: tensorflow,
+        name: "Tensorflow",
+        type: "Backend",
+    },
+    {
+        imageUrl: python,
+        name: "Python",
         type: "Backend",
     },
     {
@@ -53,113 +55,68 @@ export const skills = [
         type: "Frontend",
     },
     {
-        imageUrl: javascript,
-        name: "JavaScript",
-        type: "Frontend",
-    },
-    {
-        imageUrl: mongodb,
-        name: "MongoDB",
-        type: "Database",
-    },
-    {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
-    },
-    {
-        imageUrl: mui,
-        name: "Material-UI",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nextjs,
-        name: "Next.js",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nodejs,
-        name: "Node.js",
-        type: "Backend",
-    },
-    {
-        imageUrl: react,
-        name: "React",
-        type: "Frontend",
-    },
-    {
-        imageUrl: redux,
-        name: "Redux",
-        type: "State Management",
-    },
-    {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
-    },
-    {
         imageUrl: tailwindcss,
-        name: "Tailwind CSS",
+        name: "tailwindcss",
         type: "Frontend",
     },
-    {
-        imageUrl: typescript,
-        name: "TypeScript",
-        type: "Frontend",
-    }
 ];
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        title: "Desktop Support Analyst Intern",
+        company_name: "John Hancock",
+        icon: JH,
         iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        date: "July 2019 - August 2019",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Assembled laptops and USB with encryptions and deployed to new hires.",
+            "Retrieved terminated employees laptops and wiped sensitive data for redeploying.",
+            "Troubleshoot technical problems and replace hardware for customers.",
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "Global Finance IT Intern",
+        company_name: "Liberty Mutual Insurance",
+        icon: Liberty,
         iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        date: "October 2019 - August 2020",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Used excel to manipulate massive financial data in PivotTable to extract meaning from a large dataset",
+            "Imported excel spreadsheet to PowerBI and converted data into interactive dashboards and rich visualizationsUsed",
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
+        title: "Library service Desk",
+        company_name: "Boston University",
+        icon: BU,
         iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
+        date: "Jan 2020 - May 2024",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Train new employees and answer any questions head supervisors do not have time for.",
+            "Enforce library protocols of 100% compliance of COVID-19 guidelines to promote the safety of patrons.",
+            "Track statistics and complete data entry in Excel.",
         ],
     },
     {
-        title: "Full stack Developer",
+        title: "Data Science Intern",
         company_name: "Meta",
-        icon: meta,
+        icon: BU,
         iconBg: "#a2d2ff",
         date: "Jan 2023 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Created environmental heatmap of Boston and investigated Boston progress toward carbon neutrality.",
+            " Extracted data from SQL database, conducted preprocessing, and performed feature engineering on Boston court data.",
+        ],
+    },
+    {
+        title: "AI engineer",
+        company_name: "Boston University",
+        icon: BU,
+        iconBg: "#a2d2ff",
+        date: "Jan 2023 - Present",
+        points: [
+            "Collaborated with MAPLE to design an RAG LLM system for summarizing and classifying bills in Massachusetts legislation.",
+            "Implemented prompting techniques, achieving 92% factual consistency, enhancing summary trustworthiness in LLM system.",
         ],
     },
 ];
@@ -173,56 +130,57 @@ export const socialLinks = [
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/weibb123',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'https://www.linkedin.com/in/wei-mai/',
     }
 ];
 
 export const projects = [
     {
+
         iconUrl: pricewise,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'Data analysis on Google Cloud',
+        description: 'Provisioned virtual machine and created cloud sql database for storing and analyzing datas',
+        link: 'https://github.com/weibb123/Data-with-Google-Cloud',
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: 'GPT-DocuAssist',
+        description: 'Would it be great if I can have a document assistant that can asnwers my questions or aid my reading about a pdf doucment?',
+        link: 'https://github.com/weibb123/GPT-DocuAssist-',
     },
     {
         iconUrl: car,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        name: 'Draft Email Response w/ GPT',
+        description: 'Create a system that is capable of drafting responses to common business emails, such as customer inquiries or partnership requests.',
+        link: 'https://github.com/weibb123/Email_GPT',
     },
     {
         iconUrl: snapgram,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        name: 'Automated-Resume-Screening-Tool',
+        description: 'imeplment a LLM system to understand candidate/my qualifiation with my resume against job description',
+        link: 'https://github.com/weibb123/Automated-Resume-Screening-Tool',
     },
     {
         iconUrl: estate,
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        name: 'Make MASS Bills understandable',
+        description: 'Collaborated with MAPLE to design an RAG LLM system for summarizing and classifying bills in Massachusetts legislation',
+        link: 'https://github.com/weibb123/summarize_tags',
     },
     {
         iconUrl: summiz,
         theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        name: 'CustomerChurn',
+        description: 'Conducted analyses to understand customer churn patterns and developed retention methods',
+        link: 'https://github.com/weibb123/CustomerChurn',
     }
 ];

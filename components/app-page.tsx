@@ -61,7 +61,7 @@ export function HomePage() {
         {/* Hero Section */}
         <section className="mb-16 text-center">
           <Image
-            src="./images/me.jpg"
+            src="/images/me.jpg"
             alt="Profile Picture"
             width={150}
             height={150}

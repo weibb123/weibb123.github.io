@@ -166,7 +166,7 @@ export function HomePage() {
                 I'm always open to new opportunities and collaborations. Feel free to reach out!
               </p>
               <Button>
-                <Link href="mailto:john@example.com">Get in Touch</Link>
+                <Link href="mailto:weininmai@gmail.com">Get in Touch</Link>
               </Button>
             </CardContent>
           </Card>

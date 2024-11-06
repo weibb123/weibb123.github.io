@@ -83,10 +83,10 @@ export function HomePage() {
       skills: ['Langchain', 'Openai', 'Streamlit'],
     },
     {
-      title: 'Email Drafter',
-      description: 'People receive tons of email daily. Let GPT draft your email response and send',
-      link: 'https://github.com/weibb123/Email_GPT',
-      skills: ['Langchain', 'Openai', 'Streamlit'],
+      title: 'Data Science: Churn Prediction',
+      description: 'End-to-end data science pipeline to analyze why customers churn and build predictive models to predict customer churn',
+      link: 'https://github.com/weibb123/CustomerChurn',
+      skills: ['Pandas', 'XGBoost', 'Streamlit', 'Scikit-Learn'],
     },
   ]
 

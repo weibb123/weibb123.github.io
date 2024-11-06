@@ -59,10 +59,10 @@ export function HomePage() {
       skills: ['Streamlit', 'OpenAI', 'SVG', 'REST API'],
     },
     {
-      title: 'AI Chatbot',
-      description: 'An AI-powered chatbot using natural language processing for customer support.',
-      link: 'https://github.com/johndoe/ai-chatbot',
-      skills: ['Python', 'TensorFlow', 'NLP', 'Flask'],
+      title: 'AI Agent Trip Planner',
+      description: 'AI-powered Agents that research and plan vacation trips, saving time for users to research where to go',
+      link: 'https://github.com/weibb123/crewAI_trip_planner',
+      skills: ['Reflex', 'Python', 'crewAI', 'Langchain', "OpenAI", "Serper API"],
     },
     {
       title: 'Summarize Massachusetts Legislation Bills',
@@ -75,6 +75,12 @@ export function HomePage() {
       description: 'Fine-tuned open source TinyLlava model via QLora technique to build an AI-powered campus tour guide for Boston University',
       link: 'https://github.com/weibb123/BU_TinyLLava',
       skills: ['Huggingface', 'Gradio', 'GPU Cloud', 'PyTorch', "deepspeed"],
+    },
+    {
+      title: 'Email Drafter',
+      description: 'People receive tons of email daily. Let GPT draft your email response and send',
+      link: 'https://github.com/weibb123/Email_GPT',
+      skills: ['Langchain', 'Openai', 'Streamlit'],
     },
     {
       title: 'Email Drafter',

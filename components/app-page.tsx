@@ -41,6 +41,12 @@ const skillColors: { [key: string]: string } = {
 export function HomePage() {
   const projects = [
     {
+      title: 'Llama Python Coder',
+      description: 'Finetune Llama3.2:1b to answer Python-related queries better!!',
+      link: 'https://github.com/weibb123/Python-coder',
+      skills: ['Ollama', 'Huggingface', 'Unsloth.ai', 'Quantization', 'Finetuning'],
+    },
+    {
       title: 'Automate Finance LLM',
       description: 'Ever wonder how LLM can help provide summary for your stock? Simplifying investment summaries',
       link: 'https://github.com/weibb123/Automate_Finance_LLM',

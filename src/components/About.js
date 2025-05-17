@@ -19,11 +19,8 @@ class About extends React.Component {
   render() {
     const one = (
       <p>
-        I am a <b>data expert</b> at
-        <a href="https://www.aboutamazon.com/"> Amazon</a>, working in the AWS
-        sector under team Route 53. At the same time, I am undertaking a
-        part-time <b> Master's of Science</b> in <b>Software Engineering </b>at{" "}
-        <a href="https://www.ox.ac.uk/about">University of Oxford</a>.
+        I bring experience in <b> data science</b> and <b>machine learning</b> to
+        the table. Enthuisiastic about applying knowledge to contribute to healthcare, economics, and social services.
       </p>
     );
     const two = (
@@ -34,12 +31,12 @@ class About extends React.Component {
     );
 
     const tech_stack = [
-      "Typescript",
-      "Python",
-      "React.js",
-      "Java",
-      "Javascript ES6+",
-      "C#"
+      "R: Tidyverse, ggplot2",
+      "Python: sklearn, PyTorch, pandas",
+      "MySQL",
+      "Google Cloud",
+      "PowerBI",
+      "Excel"
     ];
 
     return (

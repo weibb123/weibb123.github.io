@@ -60,12 +60,12 @@ class Projects extends React.Component {
       }
     };
     const projects = {
-      "TDSB Homework Management Interface": {
+      "Depression Prevalence in Adolescents and Adults: United States": {
         desc:
-          "An application created for Toronto District School Board, with a Flask back-end and a Vue front-end.",
-        techStack: "Python (Flask), Vue.js, Bootstrap, SQL",
-        link: "https://github.com/gazijarin/TDSBHomeworkManagement",
-        open: "https://tdsb-app.herokuapp.com/"
+          "Analyze During August 2021–August 2023, depression prevalence in the past 2 weeks was 13.1% in adolescents and adults age 12 and older and decreased with increasing age overall and in females and males.",
+        techStack: "R(tidyverse)",
+        link: "https://github.com/weibb123/Depression/blob/main/R_nhanes.qmd",
+        open: "https://adaptable-hiss-c6a.notion.site/Depression-Prevalence-in-Adolescents-and-Adults-United-States-1ef26a25a15c80fe8ea0de55766350f1"
       },
       "Adam A.I.": {
         desc:

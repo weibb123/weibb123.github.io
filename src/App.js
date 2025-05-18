@@ -1,6 +1,6 @@
 import React from "react";
 import Intro from "./components/Intro";
-import Experience from "./components/Experience";
+
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Credits from "./components/Credits";
@@ -16,7 +16,7 @@ function App() {
       <div id="content">
         <Intro></Intro>
         <About></About>
-        <Experience></Experience>
+       
         <Projects></Projects>
         <Credits></Credits>
       </div>

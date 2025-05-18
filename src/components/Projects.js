@@ -67,19 +67,19 @@ class Projects extends React.Component {
         link: "https://github.com/weibb123/Depression/blob/main/R_nhanes.qmd",
         open: "https://adaptable-hiss-c6a.notion.site/Depression-Prevalence-in-Adolescents-and-Adults-United-States-1ef26a25a15c80fe8ea0de55766350f1"
       },
-      "Adam A.I.": {
+      "Automate Stock Analysis": {
         desc:
-          "A self-learning A.I. that learns to traverse through a complex maze using the genetic algorithm.",
-        techStack: "Javascript, HTML / CSS",
-        link: "https://github.com/gazijarin/adamai",
-        open: "https://gazijarin.github.io/AdamAI/"
+          "Finance automation tool using Ollama, LangChain, and OpenAI, integrating with Yahoo Finance to retrieve and process real-time financial data.",
+        techStack: "Python, Yahoo Finance API, Langchain, Ollama",
+        link: "https://github.com/weibb123/Automate_Finance_LLM",
+        open: "https://github.com/weibb123/Automate_Finance_LLM/blob/main/README.md"
       },
-      "Distributed Logging and Monitoring System": {
+      "Python-coder": {
         desc:
-          "A system that establishes an ORM connection to a Prisma client in order to communicate logs from microservices.",
-        techStack: "Node.js (Express.js), React.js, PostgreSQL",
-        link:
-          "https://github.com/gazijarin/Distributed-Logging-and-Monitoring-System"
+          "Finetune Python-code dataset with Llama 3.2-1B via QLora technique with Tesla T4 GPU",
+        techStack: "FastAPI, Python, Hugginface, Langchain",
+        link: "https://github.com/weibb123/Python-coder",
+        open: "https://levelup.gitconnected.com/finetune-llama3-2-1b-for-free-with-unsloth-and-use-in-ollama-locally-c00d28e4db34"
       },
       "Odin Bot": {
         desc:
@@ -88,11 +88,11 @@ class Projects extends React.Component {
         link: "https://github.com/gazijarin/OdinBot",
         open: ""
       },
-      "Game Centre": {
+      "Accessible Vision Assist: VizWiz": {
         desc:
-          "An Android app consisting of three board games, including multiplayer, autosave, user authentication, etc.",
-        techStack: "Java, Android Studio",
-        link: "https://github.com/gazijarin/gamecentre",
+          "Fine-tuned vision-language model on 39,181 images from blind users to develop image captioning solutions.",
+        techStack: "PyTorch, HuggingFace",
+        link: "https://github.com/weibb123/sp2024_midterm",
         open: ""
       }
     };
